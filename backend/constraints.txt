@@ -1,0 +1,4 @@
+torch==2.5.1
+torchvision==0.20.1
+warp-lang<1.11
+numpy<2.3
