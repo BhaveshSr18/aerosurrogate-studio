@@ -6,7 +6,7 @@ import { Pipeline } from "@/components/landing/pipeline";
 
 export const metadata: Metadata = { title: "Model card" };
 
-/* Facts below come from the surrogate repository (AirfransProject_migration). Metrics are
+/* Facts below come from the surrogate repository (airfrans-meshgraphnet-surrogate). Metrics are
  * the acceptance targets in acceptance_criteria.json; measured values arrive after training. */
 
 const ARCH: [string, string][] = [

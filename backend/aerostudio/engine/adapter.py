@@ -1,6 +1,6 @@
 """The ONLY bridge to the surrogate-model repository.
 
-The surrogate repo (AirfransProject_migration) is developed separately and is not a
+The surrogate repo (airfrans-meshgraphnet-surrogate) is developed separately and is not a
 Python package, so it is loaded from a checkout pinned by git commit: at startup the
 checkout's HEAD must equal settings.surrogate_commit, and its working tree must be clean
 (pin mode "strict"). Everything else in the backend talks to `SurrogateEngine`, never

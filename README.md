@@ -11,8 +11,8 @@ Airfoil design and optimization driven by a **MeshGraphNet CFD surrogate** train
 | [`backend/`](backend/README.md) | FastAPI service: NACA geometry, mesh morphing, surrogate inference, optimization jobs |
 
 The surrogate model itself (training, preprocessing, evaluation) lives in a separate repository,
-`AirfransProject_migration`. The backend imports it from a checkout pinned by git commit
-(`AEROSTUDIO_SURROGATE_COMMIT`).
+`airfrans-meshgraphnet-surrogate` (private; checked out locally as `AirfransProject_migration`).
+The backend imports it from a checkout pinned by git commit (`AEROSTUDIO_SURROGATE_COMMIT`).
 
 ## Status
 

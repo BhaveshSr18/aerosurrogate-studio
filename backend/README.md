@@ -9,7 +9,7 @@ design ──► NACA geometry ──► base-mesh selection ──► mesh morp
        ──► coefficients, Cp, Cm, separation, field raster ──► JSON / SSE
 ```
 
-The surrogate model is developed **separately** (`AirfransProject_migration`). This backend
+The surrogate model is developed **separately** (`airfrans-meshgraphnet-surrogate`, checked out locally as `AirfransProject_migration`). This backend
 imports it only in `aerostudio/engine/adapter.py`, from a checkout pinned by git commit.
 
 ## Layout

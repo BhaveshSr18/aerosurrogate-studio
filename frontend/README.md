@@ -1,7 +1,7 @@
 # AeroSurrogate Studio
 
 Web interface for airfoil design and optimization driven by a **MeshGraphNet CFD surrogate** trained on the
-[AirfRANS](https://airfrans.readthedocs.io) dataset. The surrogate model itself lives in a separate repository (`AirfransProject_migration`).
+[AirfRANS](https://airfrans.readthedocs.io) dataset. The surrogate model itself lives in a separate repository (`airfrans-meshgraphnet-surrogate`).
 
 > **Status: preview build.** The UI, workflows and API contract are complete. The physics comes from an
 > in-browser **placeholder**: a Hess–Smith panel method plus empirical viscous, stall and uncertainty models.
