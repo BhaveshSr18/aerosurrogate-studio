@@ -41,3 +41,11 @@ python -m venv .venv
 
 `backend/data/` (base-mesh library, ~61 MB) and model checkpoints are not in git. Rebuild the library
 with `backend/scripts/build_base_library.py` from the preprocessed AirfRANS graphs.
+
+## Data attribution
+
+The ground-truth summary numbers in `frontend/src/test/fixtures/airfrans-truth.json` are derived from
+the [AirfRANS](https://airfrans.readthedocs.io) dataset (Bonnet et al., NeurIPS 2022 Datasets and
+Benchmarks), which is released under the
+[Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/). The dataset itself is
+not redistributed in this repository.
